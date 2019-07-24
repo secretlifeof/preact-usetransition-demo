@@ -1,0 +1,24 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "components": "./components",
+          "containers": "./containers",
+          "pages": "./pages",
+          "u": "./utils",
+          "lib": "./lib",
+          "store": "./redux/store",
+          "reducers": "./redux/reducers",
+          "actions": "./redux/actions",
+          "constants": "./redux/constants",
+          "hooks": "./hooks",
+          "styles": "./styles"
+        }
+      }
+    ],
+  ],
+}
